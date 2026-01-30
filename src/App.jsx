@@ -26,7 +26,7 @@ function App() {
     formData.append('descripcion', searchText) // Enviamos el texto al backend
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/identificar', {
+      const response = await fetch('https://back-ai-plants-yg9e.vercel.app/identificar', {
         method: 'POST',
         body: formData,
       })
