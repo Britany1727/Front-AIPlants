@@ -1,18 +1,69 @@
-# React + Vite
+# 🌿 Sistema de Identificación de Plantas mediante Inteligencia Artificial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descripción del Proyecto
 
-Currently, two official plugins are available:
+Este proyecto consiste en el desarrollo de una aplicación que identifica plantas a partir de imágenes utilizando técnicas de *inteligencia artificial y visión por computador*. El sistema permite al usuario cargar una imagen de una planta y obtener su identificación junto con información básica sobre sus características y cuidados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto integra un modelo de aprendizaje profundo, un backend en Python y una interfaz gráfica para la interacción con el usuario.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Objetivo del Proyecto
 
-## Expanding the ESLint configuration
+Desarrollar un sistema de identificación automática de plantas mediante el uso de redes neuronales convolucionales, integrando un backend y una interfaz gráfica que permitan la interacción del usuario.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Front-AIPlants
-# Front-AIPlants
+
+## 🧠 Tecnologías Utilizadas
+
+### Lenguajes y Frameworks
+
+* Python 3.x
+* Visual Studio Code
+* React
+
+### Librerías Principales
+
+* NumPy
+* OpenCV
+* Pandas
+* Matplotlib
+
+
+
+## 🖼️ Funcionamiento del Sistema
+
+1. El usuario carga una imagen de una planta.
+2. El backend envía la imagen al modelo de inteligencia artificial.
+3. El modelo clasifica la especie vegetal.
+4. El sistema muestra el nombre de la planta y sus características.
+
+
+## 📊 Dataset y Modelo
+
+* Se utilizó un dataset precargado de imágenes de plantas.
+* El modelo fue entrenado utilizando redes neuronales convolucionales (CNN).
+* Métricas evaluadas: Accuracy y Loss.
+
+
+## 📈 Resultados
+
+El sistema logró identificar correctamente las especies de plantas incluidas en el dataset, obteniendo una precisión aceptable para un proyecto académico.
+
+
+## 🚀 Trabajos Futuros
+
+* Ampliar el dataset con más especies vegetales.
+* Implementar detección de enfermedades en plantas.
+* Optimizar el sistema para dispositivos móviles.
+* Desplegar el sistema en la nube.
+
+
+## 👥 Autores
+
+Brittany Chuma
+Katherine Sailema
+Alan Logroño
+
+
+## 📄 Licencia
+
+Este proyecto se desarrolla con fines académicos y educativos.
